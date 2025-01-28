@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Textbook</title>
+    <style>
+        body {
+            background-image: url(images/collage.jpg); /* Replace with your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default margin */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align logo to the left */
+            justify-content: center;
+            height: 100vh;
+            padding: 20px; /* Add some padding for spacing */
+        }
+        .logo {
+            width: 150px; /* Adjust logo size as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+        h1 {
+            color: rgba(255, 255, 255, 0.904);
+            font-size: 2rem;
+        }
+        .start-button {
+            background-color: #0074D9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="images/ll2.jpg" alt="My Logo">
+        <h1>Welcome to the Digital Textbook Of <br>Ace Engineerig Collage </h1>
+        <button class="start-button" onclick="window.location.href='chapter1.html'">Start Reading</button>
+    </div>
+</body>
+</html>
